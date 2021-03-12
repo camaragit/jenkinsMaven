@@ -8,7 +8,7 @@ node {
 
     }
         stage('runjar') {
-        sh 'java -jar target/jenkinsMaven'
+        sh 'java -jar target/jenkinsMaven.jar'
 
     }
 
